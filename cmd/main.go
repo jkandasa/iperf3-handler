@@ -8,8 +8,8 @@ import (
 	"syscall"
 
 	"github.com/go-cmd/cmd"
-	"github.org/jkandasa/iperf3-handler/pkg/handler"
-	"github.org/jkandasa/iperf3-handler/pkg/types"
+	"github.com/jkandasa/iperf3-handler/pkg/handler"
+	"github.com/jkandasa/iperf3-handler/pkg/types"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

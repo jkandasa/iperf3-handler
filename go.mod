@@ -1,4 +1,4 @@
-module github.org/jkandasa/iperf3-handler
+module github.com/jkandasa/iperf3-handler
 
 go 1.21
 

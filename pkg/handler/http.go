@@ -11,8 +11,8 @@ import (
 
 	ping "github.com/go-ping/ping"
 	commandUtils "github.com/jkandasa/autoeasy/pkg/utils/command"
-	"github.org/jkandasa/iperf3-handler/pkg/types"
-	"github.org/jkandasa/iperf3-handler/pkg/version"
+	"github.com/jkandasa/iperf3-handler/pkg/types"
+	"github.com/jkandasa/iperf3-handler/pkg/version"
 	"go.uber.org/zap"
 )
 
