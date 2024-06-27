@@ -10,6 +10,7 @@ import (
 	"github.com/go-cmd/cmd"
 	"github.com/jkandasa/iperf3-handler/pkg/handler"
 	"github.com/jkandasa/iperf3-handler/pkg/types"
+	"github.com/jkandasa/iperf3-handler/pkg/version"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )
@@ -32,6 +33,8 @@ func initLogger() {
 
 func main() {
 	initLogger()
+
+	zap.L().Info("iperf3-handler details", zap.Any("version", version.Get()))
 
 	go shutdownHook()      // start shutdown hook
 	go startIPerf3Server() // start the iperf3 server
